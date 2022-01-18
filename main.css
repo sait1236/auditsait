@@ -1,0 +1,419 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(rgba(128, 146, 172, 35%), rgba(128, 146, 172, 35%)), url('assets/images/noutbuk_ruki_rabota_222866_1920x1080.jpg') no-repeat fixed;
+    background-size: cover;
+    height: 100%;
+    line-height: 1.875em;
+    font-weight:bolder;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    height: 120px;
+    background-color: #FFFFFF;
+}
+
+.header_content{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo_img{
+    height: 120px;
+    width: 150px;
+}
+
+.logo_text{
+    color: #3c5484;
+    font-size: 25px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.nav_bar{
+    justify-self:right;
+}
+
+.nav_item{
+    margin-left: 10px;
+}
+
+.btn{
+    border: 1px solid #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 100px;
+}
+
+.btn_call{
+    color: rgba(128, 146, 172, 1);
+    border-color: rgba(128, 146, 172, 1);
+}
+
+.btn_call:hover{
+    color: #FFFFFF;
+    background-color: rgba(128, 146, 172, 1);
+
+}
+
+.greeting_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100% - 120px);
+}
+
+.greeting_block span{
+    color: #FFFFFF;
+    width: 820px;
+    text-align: center;
+}
+
+.greeting_text{
+    font: 72px sans-serif;
+    height: 180px;
+}
+
+.greeting_text_2{
+    font: 20px sans-serif;
+    height: 33px;
+}
+
+.btn_more{
+    color: #FFFFFF;
+}
+
+.btn_more:hover{
+    background-color: #FFFFFF;
+    color: rgb(128, 146, 172);
+}
+
+.about_block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 680px;
+    color: #FFFFFF;
+}
+
+.about_block div{
+    height: 100%;
+    width: 50%;
+}
+
+.left img{
+    height: 100%;
+    width: 100%;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    background-color: #8092AC;
+    height: 100%;
+}
+
+.span_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 460px;
+    height: 100%;
+}
+
+.span_block span{
+    margin: 15px 0;
+}
+
+.right span:nth-child(1){
+    font-size: 40px;
+}
+
+.right span:nth-child(2){
+    font-size: 18px;
+}
+
+.right span:nth-child(3){
+    font-size: 15px;
+}
+
+.courses_block{
+    display: flex;
+    justify-content: center;
+    background: #FFFFFF;
+}
+
+.coursers{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(60, 84, 132);
+    padding-top: 50px;
+}
+
+.course_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(60, 84, 132);
+    max-width: 544px;
+    height:600px;
+    max-height: 900px;
+    margin-bottom: 50px;
+}
+
+.course_card span, .course_card a, .course_btn_block{
+    width: 480px;
+    padding: 10px;
+}
+
+
+.course_card span{
+    font-size: 18px;
+}
+
+.course_name{
+    color: rgb(60, 84, 132);
+}
+
+.course_name{
+    font-size: 28px;
+    height: 60px;
+}
+.course_img {
+    width: 530px;
+    height: 600px;
+}
+
+.course_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.course_btn_block{
+    height: 50px;
+}
+
+.course_rec{
+    background: #8092AC;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 18px;
+    
+}
+.course_rec-1{
+    background: #8092AC;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.course_rec-2{
+    background: #8092AC;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-left: 10px;
+}
+
+.course_rec-3{
+    background: #8092AC;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-left: 10px;
+}
+.course_rec-4{
+    background: #8092AC;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-left: 10px;
+}
+.course_rec-5{
+    background: #8092AC;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-left: 10px;
+}
+.course_rec-6{
+    background: #8092AC;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-left: 10px;
+}
+
+
+
+
+.events_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    color: rgb(60, 84, 132);
+    width: 100%;
+}
+
+.events_block h1{
+    font-size: 40px;
+    padding: 40px;
+}
+
+.events{
+    display: flex;
+    justify-content: space-between;
+    width: 77%;
+    height: 600px;
+}
+
+.event_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 473px;
+}
+
+.event_img{
+    width: 100%;
+    height: 280px;
+}
+
+.events_reg_btn{
+    color: #FFFFFF;
+    background-color: rgb(128, 146, 172);
+    border-radius: 0;
+    padding: 5px 20px;
+    margin: 30px 0;
+}
+
+.events_reg_btn:hover, .course_rec:hover, #send_btn:hover{
+    background-color: #A6B3C5;
+}
+
+.event_name{
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+.event_info{
+    font-size: 18px;
+}
+
+.contact_us_block{
+    display: flex;
+    flex-direction: column;
+    background: #F0F2F5;
+    align-items: center;
+    color: rgb(60, 84, 132);
+}
+
+.msg_form{
+    display: flex;
+    flex-direction: column;
+    width: 940px;
+    margin-bottom: 20px;
+}
+
+.form_input{
+    height: 42px;
+    font-size: 15px;
+}
+.form_input_textarea {
+    height: 60px;
+    width: 940px;
+}
+
+#user_msg_input{
+    height: auto;
+}
+
+.form_input::placeholder{
+    color:rgb(60, 84, 132)
+}
+
+.send_btn{
+    margin-top: 20px;
+    background: #3C5484;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.google_map{
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.google_map iframe{
+    width: 100%;
+}
+
+.mailing_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    color: rgb(60, 84, 132);
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #A6B3C5;
+    color: rgb(60, 84, 132);
+
+}
+
+.mailing_block form{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin-bottom: 20px;
+}
+
+#send_btn_mailing{
+    height: 35px;
+    margin-top: 10px;
+}
+
+.ar{
+    display: flex;
+    justify-content: center;
+    
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
